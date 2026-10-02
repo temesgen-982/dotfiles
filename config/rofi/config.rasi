@@ -1,0 +1,62 @@
+configuration {
+    modes: "drun,filebrowser";
+    filebrowser {
+        /* Machine-specific: rasi has no environment variable expansion, so
+         * this path cannot be written as $HOME. Change it when setting up a
+         * new machine. */
+        directory: "/home/temesgen/Downloads/Telegram Desktop";
+        directories-first: true;
+        sorting-method: "name";
+        command: "pcmanfm";
+    }
+    show-icons: true;
+    timeout {
+      action: "kb-cancel";
+      delay:  0;
+    }
+}
+
+@theme "/usr/share/rofi/themes/DarkBlue.rasi"
+
+/* Global window styles */
+window {
+    width: 35%;
+    border: 2px;
+    border-color: #44475a;
+    padding: 8px;
+}
+
+/* Input bar */
+inputbar {
+    children: [entry, prompt];
+    background-color: #383a59;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+prompt {
+    background-color: #6272a4;
+    text-color: #ffffff;
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+
+listview {
+    lines: 8; 
+    spacing: 8px;
+    margin: 10px 0px 0px 0px;
+    padding: 8px 0px;
+    fixed-height: true;
+}
+
+element {
+    padding: 10px 15px;
+    spacing: 10px;
+    border-radius: 6px;
+}
+
+element selected {
+    background-color: #6272a4;
+    text-color: #f8f8f2;
+    border-radius: 4px;
+}

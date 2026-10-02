@@ -1,0 +1,13 @@
+# Editor / swap cruft
+*.swp
+*.swo
+*~
+.#*
+tags
+
+# Editor-local settings that belong to one machine, not the repo
+.luarc.json
+.direnv/
+
+# OS
+.DS_Store

@@ -1,0 +1,54 @@
+[font]
+size = 12.0
+
+[font.normal]
+family = "Noto Sans Mono"
+style = "Regular"
+
+[font.bold]
+family = "Noto Sans Mono"
+style = "Bold"
+
+[font.italic]
+family = "Noto Sans Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "Noto Sans Mono"
+style = "Bold Italic"
+
+# 3024 Night
+[colors.primary]
+background = "#090200"
+foreground = "#a4a1a1"
+
+[colors.cursor]
+text = "#090200"
+cursor = "#a4a1a1"
+
+[colors.selection]
+text = "#090200"
+background = "#494542"
+
+[colors.normal]
+black = "#090200"
+red = "#da2c20"
+green = "#00a152"
+yellow = "#fcec02"
+blue = "#00a0e4"
+magenta = "#a06994"
+cyan = "#b5e4f4"
+white = "#a4a1a1"
+
+[colors.bright]
+black = "#5b5754"
+red = "#e8bacf"
+green = "#3a3332"
+yellow = "#494542"
+blue = "#7f7c7b"
+magenta = "#d6d4d3"
+cyan = "#ccab53"
+white = "#f7f7f7"
+
+[scrolling]
+history = 100

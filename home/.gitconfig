@@ -1,0 +1,7 @@
+[user]
+	name = temesgen-982
+	email = tedenadane@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim

@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale "$HOME/Pictures/20260117_083205.jpg" 
